@@ -36,3 +36,5 @@ target_link_libraries(yield_back PRIVATE fmt::fmt-header-only)
 
 add_executable(coro-coro coro-coro.cpp)
 target_link_libraries(coro-coro PRIVATE fmt::fmt-header-only)
+
+add_executable(event manualResetEvent.cpp)
